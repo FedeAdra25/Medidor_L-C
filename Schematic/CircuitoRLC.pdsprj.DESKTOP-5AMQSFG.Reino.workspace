@@ -5,14 +5,14 @@
   <WINDOW type="default" module="ISIS"/>
   <WINDOW type="VIEW3D" module="VIEW3D">
    <camera>
-    <position x="1322616" y="-2845638" z="6979058"/>
+    <position x="1694760" y="7019032" z="9431305"/>
     <focus x="1322616" y="4133420" z="0"/>
-    <up x="0" y="707106" z="707106"/>
+    <up x="6939" y="956143" z="-292815"/>
    </camera>
   </WINDOW>
  </FRAME>
  <FRAME activewindow="0">
-  <PLACEMENT>2c0000000000000001000000ffffffffffffffffffffffffffffffffc20300000d000000710700002c040000</PLACEMENT>
+  <PLACEMENT>2c0000000200000003000000ffffffffffffffffffffffffffffffffc20300000d000000710700002c040000</PLACEMENT>
   <WINDOW type="default" module="ARES"/>
  </FRAME>
  <MODULE name="VSMDEBUG">
