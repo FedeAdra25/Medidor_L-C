@@ -11,7 +11,6 @@
 
 #define VOLTAGE_AT_TAU 2086
 
-
 void System_Init(void);
 
 uint32_t System_MeasureC(void);
