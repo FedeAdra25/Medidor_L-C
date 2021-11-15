@@ -6,7 +6,7 @@
 #endif
 
 #define CONST_FOR_US_DELAY 12
-#define CONST_FOR_MS_DELAY 12000
+#define CONST_FOR_MS_DELAY 6000
 
 void delay_ms(unsigned long);
 void delay_us(unsigned long);
