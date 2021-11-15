@@ -24,7 +24,7 @@ void System_Init(void){
 	TIM2->CCMR2 = 0x001; /* Pin TIM2_CH3 as input for channel 3 */
 	TIM2->CCER = (1<< 8); /*CC3P = 0 (rising), CC3E = 1 (enable)*/
 	TIM2->PSC = 72-1; //F_clk=1000000Hz=1MHz
-	TIM2->ARR = 50000-1; //Count up to 50000 -> ?maximum freq= 5seconds?
+	TIM2->ARR = 65535; //Count up to 65536 -> maximum T= 65ms?
 }
 
 uint32_t System_MeasureC(void){
@@ -48,7 +48,6 @@ uint32_t System_MeasureC(void){
 		}
 	}
 	return capacitanceM;
-
 }
 uint32_t System_MeasureL(void){
 	volatile uint32_t i,t=0,t0=0,T=0,min,max,imin,imax;

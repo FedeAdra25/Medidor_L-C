@@ -1,7 +1,6 @@
 #include <timer1.h>
 
-void TIMER1_Init(void){
-	
+void TIMER1_Init(void){	
 	TIM1->ARR=0xFFFF; //top register set to maximum value
 	TIM1->PSC=720-1;
 	TIM1->CNT=0x0000; //initial value of counter

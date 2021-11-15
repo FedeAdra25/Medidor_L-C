@@ -36,6 +36,6 @@ int main (void)
 		LCDstring("uH", 2); //10% error aprox
 	}
    return 0;
- }   
+ }
 
 
